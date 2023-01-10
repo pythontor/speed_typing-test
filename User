@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace скорогудаева8
+{
+    public class User
+    {
+        public string name;
+        public double simvolVMinutu;
+        public double simvolVSecundu;
+
+        public User(string nameParam, double simvolVMinutuParam, double simvolVSecunduParam)
+        {
+            name = nameParam;
+            simvolVMinutu = simvolVMinutuParam;
+            simvolVSecundu = simvolVSecunduParam;
+        }
+    }
+}
